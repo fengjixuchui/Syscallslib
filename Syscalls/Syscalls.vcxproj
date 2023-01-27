@@ -138,7 +138,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <ExportNamedFunctions>InitializeStruct;NtAllocateVirtualMemory;NtAllocateVirtualMemory2;NtProtectVirtualMemory;NtCreateSection;NtOpenSection;NtMapViewOfSection;NtUnmapViewOfSection;NtClose;%(ExportNamedFunctions)</ExportNamedFunctions>
+      <ExportNamedFunctions>InitializeStruct;NtAllocateVirtualMemory;NtAllocateVirtualMemory2;NtProtectVirtualMemory;NtCreateSection;NtOpenSection;NtMapViewOfSection;NtUnmapViewOfSection;NtClose;NtWriteVirtualMemory;NtCreateUserProcess;NtCreateUserProcess2;NtQuerySystemInformation;%(ExportNamedFunctions)</ExportNamedFunctions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -162,7 +162,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <ExportNamedFunctions>InitializeStruct;NtAllocateVirtualMemory;NtAllocateVirtualMemory2;NtProtectVirtualMemory;NtCreateSection;NtOpenSection;NtMapViewOfSection;NtUnmapViewOfSection;NtClose;%(ExportNamedFunctions)</ExportNamedFunctions>
+      <ExportNamedFunctions>InitializeStruct;NtAllocateVirtualMemory;NtAllocateVirtualMemory2;NtProtectVirtualMemory;NtCreateSection;NtOpenSection;NtMapViewOfSection;NtUnmapViewOfSection;NtClose;NtWriteVirtualMemory;NtCreateUserProcess;NtCreateUserProcess2;NtQuerySystemInformation;%(ExportNamedFunctions)</ExportNamedFunctions>
     </Lib>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
